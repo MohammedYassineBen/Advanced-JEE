@@ -11,6 +11,7 @@ public class MyRemoteServiceImpl extends UnicastRemoteObject implements MyRemote
     public MyRemoteServiceImpl() throws RemoteException {
         super();
         livres = new ArrayList<>();
+
     }
 
     @Override
