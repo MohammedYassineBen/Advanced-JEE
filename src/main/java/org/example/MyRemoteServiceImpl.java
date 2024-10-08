@@ -11,12 +11,6 @@ public class MyRemoteServiceImpl extends UnicastRemoteObject implements MyRemote
     public MyRemoteServiceImpl() throws RemoteException {
         super();
         livres = new ArrayList<>();
-        livres.add("Clean Code: A Handbook of Agile Software de Jamal  ");
-        livres.add("Introduction to the Theory of Computation de Hakim ");
-
-        livres.add("Artificial Intelligence: A Modern Approach de Karim Karimi");
-        livres.add("The Pragmatic Programmer: Your Journey to Mastery de Mohammed yassine Benaouija e");
-
     }
 
     @Override
