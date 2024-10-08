@@ -42,6 +42,7 @@ public class RMIClient {
             }
 
             scanner.close();
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
